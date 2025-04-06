@@ -1,10 +1,34 @@
+:root {
+    --primary-color: #1f2129; /* shark */
+    --secondary-color: #d4ccbb;/* swiss-coffee */
+
+}
+
+/* General Styles */
+
+body {
+ height: 100vh;
+}
+
+header,
+nav a,
+footer 
+{
+    background-color: var(--primary-color);
+    color: var(--secondary-color) !important;
+}
 
 
+.hero-image {
+    background: url(../images/bruce-mars-HHXdPG_eTIQ-unsplash\ \(1\).jpg) no-repeat center center / cover ;
+    padding-top: 19em;
+}
 /* Temporary CSS for testng purposes only */
 
-.container {
+/* .container {
     border: 1px solid black;
 }
+
 .col-12 {
     border: 1px solid black;
-}
+} */

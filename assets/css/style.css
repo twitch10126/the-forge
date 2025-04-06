@@ -8,8 +8,10 @@
 
 body {
  height: 100vh;
+ background-color: #e1d9d9;
 }
 
+/* Header */
 header,
 nav a,
 footer 
@@ -18,11 +20,22 @@ footer
     color: var(--secondary-color) !important;
 }
 
-
+/* Hero section */
 .hero-image {
-    background: url(../images/bruce-mars-HHXdPG_eTIQ-unsplash\ \(1\).jpg) no-repeat center center / cover ;
-    padding-top: 19em;
+    background: url(../images/bruce-mars-HHXdPG_eTIQ-unsplash\ \(1\).jpg) center center / cover ;
+    padding-top: 19em !important;
 }
+
+.hero-text {
+    justify-items: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.btn {
+    margin: 17px;
+}
+
 /* Temporary CSS for testng purposes only */
 
 /* .container {

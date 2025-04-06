@@ -1,9 +1,10 @@
-h1 {
-    color: red;
-}
 
-/* Temporary CSS*/
+
+/* Temporary CSS for testng purposes only */
 
 .container {
-    border: 2px solid black;
+    border: 1px solid black;
+}
+.col-12 {
+    border: 1px solid black;
 }

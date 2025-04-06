@@ -13,6 +13,11 @@ body {
     background-color: #e1d9d9;
 }
 
+h3,
+h2 {
+    padding: 10px;
+}
+
 /* Header */
 header,
 nav a,
@@ -36,3 +41,10 @@ footer {
 .btn {
     margin: 17px;
 }
+
+/* Footer */
+
+footer {
+    padding: 25px 10px;;
+}
+

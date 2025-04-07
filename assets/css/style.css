@@ -1,3 +1,6 @@
+/* imported Oswald and teko fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
+
 :root {
     --primary-color: #1f2129;
     /* shark */
@@ -11,11 +14,14 @@
 body {
     height: 100vh;
     background-color: #e1d9d9;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
 }
 
+h2,
 h3,
-h2 {
-    padding:10px 0px;
+h4 {
+    padding: 10px 0px;
 }
 
 .section {
@@ -32,6 +38,18 @@ nav a,
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color) !important;
+    font-family: "teko", sans-serif;
+}
+
+/* navbar */
+#navbar ul li {
+    font-size: 27px;
+}
+
+/* brand alters the brand name in the header */
+#brand {
+    font-size: 40px !important;
+    font-family: "teko", sans-serif;
 }
 
 /* Hero section */
@@ -46,22 +64,41 @@ footer {
     padding-top: 20px;
 }
 
+/* why us section */
 
+#why-us {
+    justify-content: left;
+}
+
+#why-us li {
+    list-style: none;
+    text-align: left;
+}
+
+#why-us li h4 {
+    margin: 5px;
+}
+
+#why-us ol,
+#why-us ul {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 /* Footer */
 
 footer {
-    padding: 25px 10px;;
+    padding: 25px 10px;
+    ;
 }
 
 /* Social media */
 
 #contact a {
-   color: inherit;
-   padding: 0px 10px;
-   font-size: 2rem;
+    color: inherit;
+    padding: 0px 10px;
+    font-size: 2rem;
 }
 
 .social {
     text-align: center;
 }
-

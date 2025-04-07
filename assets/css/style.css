@@ -22,6 +22,10 @@ h2 {
     padding-bottom: 10px;
 }
 
+.btn {
+    margin: 17px;
+}
+
 /* Header */
 header,
 nav a,
@@ -42,13 +46,22 @@ footer {
     padding-top: 20px;
 }
 
-.btn {
-    margin: 17px;
-}
 
 /* Footer */
 
 footer {
     padding: 25px 10px;;
+}
+
+/* Social media */
+
+#contact a {
+   color: inherit;
+   padding: 0px 10px;
+   font-size: 2rem;
+}
+
+.social {
+    text-align: center;
 }
 

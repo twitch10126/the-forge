@@ -12,7 +12,6 @@
 /* General Styles */
 
 body {
-    height: 100vh;
     background-color: #e1d9d9;
     font-family: "Oswald", sans-serif;
     font-size: 18px;
@@ -54,8 +53,8 @@ footer {
 
 /* Hero section */
 .hero-image {
-    background: url(../images/bruce-mars-HHXdPG_eTIQ-unsplash\ \(1\).jpg) center center / cover;
-    padding-top: 19em !important;
+    background: url(../images/pexels-victorfreitas-841130.jpg) center center / cover;
+    padding-top: 25em !important;
 }
 
 .hero-text {
@@ -84,11 +83,15 @@ footer {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+#why-us-image {
+    background: url(../images/bruce-mars-ZXq7xoo98b0-unsplash.jpg) center center / cover;
+    min-height: 300px;
+}
 /* Footer */
 
 footer {
-    padding: 25px 10px;
-    ;
+    padding: 5px 10px;
 }
 
 /* Social media */

@@ -48,6 +48,10 @@ footer {
     font-size: 27px;
 }
 
+nav a:hover {
+    color:var(--highlight-light) !important;
+}
+
 /* Brand alters the brand name in the header */
 #brand {
     font-size: 40px !important;

@@ -1,201 +1,211 @@
 /* imported Oswald and teko fonts from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap");
 
 :root {
-    --primary-color: #1f2129;
-    /* shark */
-    --secondary-color: #d4ccbb;
-    /* sisal */
-    --highlight: #9e8875;
-    /* donkey brown */
-    --highlight-light: #e1d9d9;
-    /* sisal swiss-coffee */
-
-
+  --primary-color: #1f2129;
+  /* shark */
+  --secondary-color: #d4ccbb;
+  /* sisal */
+  --highlight: #9e8875;
+  /* donkey brown */
+  --highlight-light: #e1d9d9;
+  /* sisal swiss-coffee */
 }
 
 /* General Styles */
 
 body {
-    background-color: #e1d9d9;
-    font-family: "Oswald", sans-serif;
-    font-size: 18px;
+  background-color: #e1d9d9;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
 }
 
 h2,
 h3,
 h4 {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 .section {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
+.custom-table {
+  table-layout: fixed;
+  width: 100%;
+  min-height: 200px;
+  text-align: center;
+}
+
+.custom-table tr {
+    border: 2px solid gray;
+    width: 75%;
+    height: 10px;
+}
 
 /* Header */
 header,
 nav a,
 footer {
-    background-color: var(--primary-color);
-    color: var(--highlight) !important;
-    font-family: "teko", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--highlight) !important;
+  font-family: "teko", sans-serif;
 }
-
 
 /* Navbar */
 #navbar ul li {
-    font-size: 27px;
+  font-size: 27px;
 }
 
 nav a:hover {
-    color:var(--highlight-light) !important;
+  color: var(--highlight-light) !important;
 }
 
 /* Brand alters the brand name in the header */
 #brand {
-    font-size: 40px !important;
-    font-family: "teko", sans-serif;
+  font-size: 40px !important;
+  font-family: "teko", sans-serif;
 }
 
 /* Main content*/
 main {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 /* Hero section */
 
 .hero-image {
-    background: url(../images/pexels-victorfreitas-841130.jpg) center center / cover;
-    padding-top: 25em !important;
+  background: url(../images/pexels-victorfreitas-841130.jpg) center center /
+    cover;
+  padding-top: 25em !important;
 }
 
 .hero-text {
-    text-align: left;
-    margin-top: 9em;
-    position: absolute;
-    color: var(--highlight-light);
-    width: 60%;
-    font-size: 30px;
-    background-color: rgba(12, 12, 12, 0.432);
+  text-align: left;
+  margin-top: 9em;
+  position: absolute;
+  color: var(--highlight-light);
+  width: 60%;
+  font-size: 30px;
+  background-color: rgba(12, 12, 12, 0.432);
 }
 
 .hero-btn {
-    margin-bottom: 20px;
-    width: 65%;
-    font-size: 1.2rem;
+  margin-bottom: 20px;
+  width: 65%;
+  font-size: 1.2rem;
 }
 
 /* Why us section */
 
 #why-us {
-    justify-content: left;
+  justify-content: left;
 }
 
 #why-us li {
-    list-style: none;
-    text-align: left;
+  list-style: none;
+  text-align: left;
 }
 
 #why-us li h4 {
-    margin: 5px;
+  margin: 5px;
 }
 
 #why-us ol,
 #why-us ul {
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #why-us ol h4 {
-    color: var(--highlight);
+  color: var(--highlight);
 }
 
 #why-us-image {
-    background: url(../images/bruce-mars-ZXq7xoo98b0-unsplash.jpg) center center / cover;
-    min-height: 300px;
+  background: url(../images/bruce-mars-ZXq7xoo98b0-unsplash.jpg) center center /
+    cover;
+  min-height: 300px;
 }
 
 /* Classes page*/
 
 /* Cards */
 .card {
- margin-top: 13px;
- 
+  margin-top: 13px;
 }
-
 
 /* Class Schedule */
 .schedule {
-    width: 100%;
-    margin-bottom: 15px;
-    border: 1px solid gray;
-    font-size: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid gray;
+  font-size: 15px;
 }
 
 .schedule tr {
-    border: 1px solid gray;
+  
+  border: 2px solid gray;
+  width: 25%;
+  height: 50px;
 }
 
 /* Footer */
 
 footer {
-    padding: 5px 10px;
+  padding: 5px 10px;
 }
 
 /* Social media */
 
 #contact a {
-    color: inherit;
-    padding: 0px 10px;
-    font-size: 2rem;
+  color: inherit;
+  padding: 0px 10px;
+  font-size: 2rem;
 }
 
 .social {
-    text-align: center;
+  text-align: center;
 }
 
 /* Media Quieries */
 
- /* Tablets screens (768px and above) */
-@media screen and (min-width: 768px){
-    /* hero section */
-    .hero-text {
-        margin-top: -5em;
-        position:relative;
-        width: 300px;
-        font-size: 30px;
-        color: #ffff;
-    }
+/* Tablets screens (768px and above) */
+@media screen and (min-width: 768px) {
+  /* hero section */
+  .hero-text {
+    margin-top: -5em;
+    position: relative;
+    width: 300px;
+    font-size: 30px;
+    color: #ffff;
+  }
 }
 
 /* Large screens (992px and above)*/
-@media screen and (min-width: 992px){
-     /* hero section */
-     .hero-text {
-        margin-left: 3.5em;
-        margin-top: 6em;
-        position:relative;
-        width: 300px;
-        background-color: transparent;
-        color: var(--highlight)
+@media screen and (min-width: 992px) {
+  /* hero section */
+  .hero-text {
+    margin-left: 3.5em;
+    margin-top: 6em;
+    position: relative;
+    width: 300px;
+    background-color: transparent;
+    color: var(--highlight);
+  }
 
-    }
-
-    /* Social media links */
-    .social {
-        text-align: left;
-    }
+  /* Social media links */
+  .social {
+    text-align: left;
+  }
 }
 
 /* XLarge screens (1200px and above)*/
-@media screen and (min-width: 1200px){
-
-    /* hero section */
-    .hero-text {
-       margin-left: 6em;
-       margin-top: 6em;
-       position:relative;
-       width: 350px;
-   }
+@media screen and (min-width: 1200px) {
+  /* hero section */
+  .hero-text {
+    margin-left: 6em;
+    margin-top: 6em;
+    position: relative;
+    width: 350px;
+  }
 }

@@ -28,13 +28,9 @@ h4 {
     padding: 10px 0px;
 }
 
-
-
 .section {
     padding-bottom: 10px;
-    margin-right: 100px;
 }
-
 
 
 /* Header */
@@ -65,9 +61,9 @@ main {
 
 /* Hero section */
 
-#hero {
+/* #hero {
     position: relative;
-}
+} */
 
 .hero-image {
     background: url(../images/pexels-victorfreitas-841130.jpg) center center / cover;
@@ -136,4 +132,14 @@ footer {
 
 .social {
     text-align: center;
+}
+
+/* Media Quieries */
+
+/* large screens (992px and above)*/
+@media screen and (min-width: 992px){
+    
+    .social {
+        text-align: left;
+    }
 }

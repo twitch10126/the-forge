@@ -43,27 +43,23 @@ footer {
 }
 
 
-/* navbar */
+/* Navbar */
 #navbar ul li {
     font-size: 27px;
 }
 
-/* brand alters the brand name in the header */
+/* Brand alters the brand name in the header */
 #brand {
     font-size: 40px !important;
     font-family: "teko", sans-serif;
 }
 
-/* main content*/
+/* Main content*/
 main {
     padding-top: 0px;
 }
 
 /* Hero section */
-
-/* #hero {
-    position: relative;
-} */
 
 .hero-image {
     background: url(../images/pexels-victorfreitas-841130.jpg) center center / cover;
@@ -86,7 +82,7 @@ main {
     font-size: 1.2rem;
 }
 
-/* why us section */
+/* Why us section */
 
 #why-us {
     justify-content: left;
@@ -136,9 +132,22 @@ footer {
 
 /* Media Quieries */
 
-/* large screens (992px and above)*/
+ /* Tablets screens (768px and above) */
+@media screen and (min-width: 768px){
+    /* hero section */
+    .hero-text {
+        margin-top: -5em;
+        position:relative;
+        width: 300px;
+        font-size: 30px;
+        color: #ffff;
+    }
+}
+
+/* Large screens (992px and above)*/
 @media screen and (min-width: 992px){
-    
+
+    /* Social media links */
     .social {
         text-align: left;
     }

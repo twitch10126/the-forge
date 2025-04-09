@@ -84,6 +84,12 @@ main {
     background-color: rgba(12, 12, 12, 0.432);
 }
 
+.hero-btn {
+    margin-bottom: 20px;
+    width: 65%;
+    font-size: 1.2rem;
+}
+
 /* why us section */
 
 #why-us {

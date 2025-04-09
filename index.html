@@ -20,6 +20,10 @@
 
     <!-- Custom CSS Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links
+     Taken from Boardwalk games project  -->
+    <link rel="script" href="assets/js/script.js">
 </head>
 
 <!-- classes on body work with mt-auto on footer
@@ -74,9 +78,9 @@
         </section>
         <!-- Why us section -->
         <section id="why-us" class="container text-center">
-            
+
             <div class="row">
-                
+
                 <div class="col-12 col-lg-6">
                     <h3 class="h4">Why Us ?</h3>
                     <ol>
@@ -188,28 +192,6 @@
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/e41725af1c.js" crossorigin="anonymous"></script>
 
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links
-     Taken from Boardwalk games project -->
-    <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
-    </script>
 </body>
 
 </html>

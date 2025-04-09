@@ -116,6 +116,12 @@ main {
     min-height: 300px;
 }
 
+/* Classes page*/
+.card {
+ margin-top: 13px;
+ 
+}
+
 /* Footer */
 
 footer {

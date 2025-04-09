@@ -146,6 +146,16 @@ footer {
 
 /* Large screens (992px and above)*/
 @media screen and (min-width: 992px){
+     /* hero section */
+     .hero-text {
+        margin-left: 3.5em;
+        margin-top: 6em;
+        position:relative;
+        width: 300px;
+        background-color: transparent;
+        color: var(--highlight)
+
+    }
 
     /* Social media links */
     .social {

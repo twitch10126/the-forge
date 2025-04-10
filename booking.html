@@ -63,8 +63,39 @@
     </header>
 
     <!-- Main Content -->
-    <main class="text-center">
-       
+    <main id="booking">
+        <div class="container form">
+            <form class="row">
+                <div class="col-12 mb-3">
+                    <label for="booking-name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="booking-name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="booking-email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="booking-email" required>
+                </div>
+                <div class="col-6 mb-3">
+                    <label for="class" class="form-label">Class</label>
+                    <select name="class" class="form-select" id="class" required>
+                        <option value="">Select class</option>
+                        <option value="yoga">Yoga</option>
+                        <option value="spin">Spin</option>
+                        <option value="zumba">Zumba</option>
+                        <option value="weight-training">Weight training</option>
+                    </select>
+                    
+                </div>
+                <div class="col-6 mb-3">
+                    <label for="booking-date" class="form-label">Date</label>
+                    <input type="date" class="form-control me-2" id="booking-date" required>
+                    
+                </div>
+                <div class="col-12 text-end">
+                    <button type="submit" class="btn btn-warning mb-2">Book Now!</button>
+                </div>
+                
+            </form>
+        </div>
     </main>
 
     <!-- Footer -->

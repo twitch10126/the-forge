@@ -171,6 +171,13 @@ strong {
     text-align: center;
 }
 
+/* Forms */
+.form {
+    max-width: 500px;
+    margin-top: 40px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
 
 /* Footer */
 
@@ -189,6 +196,7 @@ footer {
 .social {
   text-align: center;
 }
+
 
 /* Media Quieries */
 

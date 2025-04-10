@@ -129,7 +129,9 @@ main {
 
 /* Cards */
 .card {
-  margin-top: 13px;
+  margin: 15px 5px;
+  height: 342px;
+  
 }
 
 /* Class Schedule */

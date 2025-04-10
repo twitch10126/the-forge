@@ -143,11 +143,28 @@ main {
 }
 
 .schedule tr {
-  
   border: 2px solid gray;
   width: 25%;
   height: 50px;
 }
+
+/* 404 page */
+#error-page .container{
+    max-width: 550px;
+    padding-top: 5%;
+    text-align: center;
+}
+
+strong {
+ font-size: 35px;
+}
+
+#error-page .home{
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+
 
 /* Footer */
 

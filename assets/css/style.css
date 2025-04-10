@@ -150,12 +150,11 @@ main {
 #carousel {
   width: 950px;
   margin: auto;
-  
 }
 
-.carousel-item img{
-    max-height: 700px;
-    padding-bottom: 1px;
+.carousel-item img {
+  max-height: 700px;
+  padding-bottom: 1px;
 }
 
 /* 404 page / success page */
@@ -183,6 +182,7 @@ strong {
 
 /* Forms */
 .form {
+  width: 80%;
   max-width: 500px;
   margin-top: 40px;
   border: 1px solid gray;

@@ -38,9 +38,9 @@ h4 {
 }
 
 .custom-table tr {
-    border: 2px solid gray;
-    width: 75%;
-    height: 10px;
+  border: 2px solid gray;
+  width: 75%;
+  height: 10px;
 }
 
 /* Header */
@@ -75,8 +75,7 @@ main {
 /* Hero section */
 
 .hero-image {
-  background: url(../images/weightlifting.jpg) center center /
-    cover;
+  background: url(../images/weightlifting.jpg) center center / cover;
   padding-top: 25em !important;
 }
 
@@ -122,8 +121,7 @@ main {
 }
 
 #why-us-image {
-  background: url(../images/gym-friends.jpg) center center /
-    cover;
+  background: url(../images/gym-friends.jpg) center center / cover;
   min-height: 300px;
 }
 
@@ -148,40 +146,54 @@ main {
   height: 50px;
 }
 
+/* Gallery */
+#carousel {
+  width: 950px;
+  margin: auto;
+  
+}
+
+.carousel-item img{
+    max-height: 700px;
+    padding-bottom: 1px;
+}
+
 /* 404 page / success page */
-#error-page .container{
-    max-width: 550px;
-    padding-top: 5%;
-    text-align: center;
+#error-page .container {
+  max-width: 550px;
+  padding-top: 5%;
+  text-align: center;
 }
 
 strong {
- font-size: 35px;
+  font-size: 35px;
 }
 
-.home{
-    width: 50%;
-    text-align: center;
-    font-size: 25px;
+.home {
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
 }
 
-#success .container{
-    max-width: 550px;
-    padding-top: 2%;
-    text-align: center;
+#success .container {
+  max-width: 550px;
+  padding-top: 2%;
+  text-align: center;
 }
 
 /* Forms */
 .form {
-    max-width: 500px;
-    margin-top: 40px;
-    border: 1px solid gray;
-    margin-bottom: 20px;
+  max-width: 500px;
+  margin-top: 40px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
 }
 
 /* Footer */
 
 footer {
+  position: relative;
+
   padding: 5px 10px;
 }
 
@@ -196,7 +208,6 @@ footer {
 .social {
   text-align: center;
 }
-
 
 /* Media Quieries */
 

@@ -75,7 +75,7 @@ main {
 /* Hero section */
 
 .hero-image {
-  background: url(../images/pexels-victorfreitas-841130.jpg) center center /
+  background: url(../images/weightlifting.jpg) center center /
     cover;
   padding-top: 25em !important;
 }
@@ -122,7 +122,7 @@ main {
 }
 
 #why-us-image {
-  background: url(../images/bruce-mars-ZXq7xoo98b0-unsplash.jpg) center center /
+  background: url(../images/gym-friends.jpg) center center /
     cover;
   min-height: 300px;
 }

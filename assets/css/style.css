@@ -123,6 +123,7 @@ main {
 #why-us-image {
   background: url(../images/gym-friends.jpg) center center / cover;
   min-height: 300px;
+  margin-bottom: 1px;
 }
 
 /* Classes page*/
@@ -220,6 +221,11 @@ footer {
     width: 300px;
     font-size: 30px;
     color: #ffff;
+  }
+ 
+  /*Why us section*/
+  #why-us-image {
+    min-height: 480px;
   }
 }
 

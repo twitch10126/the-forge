@@ -204,10 +204,12 @@ footer {
   color: inherit;
   padding: 0px 10px;
   font-size: 2rem;
+  margin: 20px 0px;
 }
 
 .social {
   text-align: center;
+  margin: 20px 0px;
 }
 
 /* Media Quieries */

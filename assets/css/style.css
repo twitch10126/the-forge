@@ -142,7 +142,6 @@ main {
 .card {
   margin: 15px 5px;
   height: 340px;
-
 }
 
 /* Class Schedule */
@@ -260,7 +259,7 @@ footer {
 
   /* Class Schedule */
 
-.schedule {
+  .schedule {
     width: 100%;
     height: 350px;
     margin-top: 80px;

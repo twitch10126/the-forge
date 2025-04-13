@@ -3,29 +3,34 @@
 
 :root {
   --primary-color: #1f2129;
-  /* shark */
-  --secondary-color: #d4ccbb;
-  /* sisal */
+  /* header and footer background */
+  --secondary-color: #6C4C37;
   --highlight: #9e8875;
   /* donkey brown */
   --highlight-light: #e1d9d9;
-  /* sisal swiss-coffee */
+  /* background colour */
 }
 
 /* General Styles */
 
 body {
-  background-color: #e1d9d9;
+  background-color: var(--highlight-light);
   font-family: "Oswald", sans-serif;
   font-size: 18px;
 }
 
-h2,
-h3,
-h4 {
-  padding: 10px 0px;
+h2{
+  margin: 15px;
+  font-size: 2em;
 }
 
+h3 {
+  margin: 2px 0px;
+}
+
+li {
+  padding: 5px 0px;
+}
 .section {
   padding-bottom: 10px;
 }
@@ -100,6 +105,9 @@ main {
 #why-us {
   justify-content: left;
 }
+#why-us h2 {
+  color: var(--secondary-color);
+}
 
 #why-us li {
   list-style: none;
@@ -116,8 +124,8 @@ main {
   padding-right: 5px;
 }
 
-#why-us ol h4 {
-  color: var(--highlight);
+#why-us ol h3 {
+  color: var(--secondary-color);
 }
 
 #why-us-image {
@@ -240,7 +248,7 @@ footer {
     position: relative;
     width: 300px;
     background-color: transparent;
-    color: var(--highlight);
+    color: var(--secondary-color);
   }
 
   /* Social media links */

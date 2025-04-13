@@ -4,7 +4,7 @@
 :root {
   --primary-color: #1f2129;
   /* header and footer background */
-  --secondary-color: #6C4C37;
+  --secondary-color: #6c4c37;
   --highlight: #9e8875;
   /* donkey brown */
   --highlight-light: #e1d9d9;
@@ -17,11 +17,11 @@ body {
   background-color: var(--highlight-light);
   font-family: "Oswald", sans-serif;
   font-size: 18px;
-  width: 100%; 
+  width: 100%;
   overflow-x: hidden;
 }
 
-h2{
+h2 {
   margin: 15px 0px;
   font-size: 2em;
 }
@@ -144,6 +144,10 @@ main {
   height: 340px;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 350px;
+}
 /* Class Schedule */
 .schedule {
   width: 100%;
@@ -233,10 +237,16 @@ footer {
     font-size: 30px;
     color: #ffff;
   }
- 
+
   /*Why us section*/
   #why-us-image {
     min-height: 480px;
+  }
+
+  /* classes section*/
+  .card-img-top {
+    width: 100%;
+    height: 375px;
   }
 }
 
@@ -257,7 +267,7 @@ footer {
     text-align: left;
   }
 
-  /* Class Schedule */
+  /* classes section*/
 
   .schedule {
     width: 100%;
@@ -265,6 +275,11 @@ footer {
     margin-top: 80px;
     margin-bottom: 15px;
     font-size: 14px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 440px;
   }
 }
 

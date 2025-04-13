@@ -17,10 +17,12 @@ body {
   background-color: var(--highlight-light);
   font-family: "Oswald", sans-serif;
   font-size: 18px;
+  width: 100%; 
+  overflow-x: hidden;
 }
 
 h2{
-  margin: 15px;
+  margin: 15px 0px;
   font-size: 2em;
 }
 

@@ -131,8 +131,8 @@ main {
 /* Cards */
 .card {
   margin: 15px 5px;
-  height: 342px;
-  
+  height: 340px;
+
 }
 
 /* Class Schedule */
@@ -140,7 +140,7 @@ main {
   width: 100%;
   margin-bottom: 15px;
   border: 1px solid gray;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .schedule tr {
@@ -255,8 +255,7 @@ footer {
     height: 350px;
     margin-top: 80px;
     margin-bottom: 15px;
-    margin-left: 50px;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 

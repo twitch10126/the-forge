@@ -39,6 +39,19 @@ h4 {
   font-size: 22px;
 }
 
+#classes h3,
+#gallery h2,
+#testimonials h2{
+color: var(--secondary-color);
+}
+
+#testimonials h5,
+#classes h5 {
+  color: var(--secondary-color);
+  font-size: 23px;
+  font-weight: bold;
+}
+
 li {
   padding: 5px 0px;
 }
@@ -116,6 +129,7 @@ main {
 #why-us {
   justify-content: left;
 }
+
 #why-us h2 {
   color: var(--secondary-color);
 }
@@ -152,11 +166,10 @@ main {
   padding: 15px;
 }
 
-#testimonials h5 {
-  color: var(--secondary-color);
-  font-size: 23px;
-  font-weight: bold;
+#testimonials h2 {
+  padding: 1em;
 }
+
 /* Classes page*/
 
 /* Cards */

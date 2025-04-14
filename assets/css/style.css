@@ -36,7 +36,7 @@ h3 {
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 li {
@@ -162,7 +162,7 @@ main {
 /* Cards */
 .card {
   margin: 15px 5px;
-  height: 380px;
+  height: 450px;
 }
 
 .card-img-top {
@@ -268,13 +268,7 @@ footer {
   /* Cards */
   .card-img-top {
     width: 100%;
-    height: 375px;
   }
-
-.card {
-  margin: 15px 5px;
-  height: 390px;
-}
 }
 
 /* Large screens (992px and above)*/
@@ -306,12 +300,12 @@ footer {
   /* Cards */
   .card {
     margin: 15px 5px;
-    height: 452px;
+    height: 500px;
   }
 
   .card-img-top {
     width: 100%;
-    height: 440px;
+    
   }
 }
 

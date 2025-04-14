@@ -21,13 +21,10 @@ body {
   overflow-x: hidden;
 }
 
-h2 {
+h2,
+h3 {
   margin: 15px 0px;
   font-size: 2em;
-}
-
-h3 {
-  margin: 2px 0px;
 }
 
 li {

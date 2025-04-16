@@ -41,8 +41,8 @@ h4 {
 
 #classes h3,
 #gallery h2,
-#testimonials h2{
-color: var(--secondary-color);
+#testimonials h2 {
+  color: var(--secondary-color);
 }
 
 #testimonials h5,
@@ -175,7 +175,6 @@ main {
 /* Cards */
 .card {
   margin: 15px 5px;
-  height: 450px;
 }
 
 .card-img-top {
@@ -215,7 +214,6 @@ main {
   width: 100%;
   padding-bottom: 1px;
 }
-
 
 /* 404 page / success page */
 #error-page .container {
@@ -323,12 +321,10 @@ footer {
   /* Cards */
   .card {
     margin: 15px 5px;
-    height: 500px;
   }
 
   .card-img-top {
     width: 100%;
-    
   }
 }
 

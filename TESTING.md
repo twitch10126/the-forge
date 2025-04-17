@@ -9,8 +9,8 @@
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-| Directory | File                                                                            | URL                                                                                                     | Screenshot                                                | Notes                 |
-| --------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------------- |
+| Directory | File                                                                            | URL                                                                                                     | Screenshot                                                   | Notes                 |
+| --------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | --------------------- |
 |           | [404.html](https://github.com/twitch10126/the-forge/blob/main/404.html)         | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/404.html)     | ![screenshot](documentation/validation/404-validate.png)     | Notes (if applicable) |
 |           | [booking.html](https://github.com/twitch10126/the-forge/blob/main/booking.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/booking.html) | ![screenshot](documentation/validation/booking-validate.png) | Notes (if applicable) |
 |           | [classes.html](https://github.com/twitch10126/the-forge/blob/main/classes.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/classes.html) | ![screenshot](documentation/validation/classes-validate.png) | Notes (if applicable) |
@@ -23,6 +23,14 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-| Directory | File | URL | Screenshot | Notes |
-| --- | --- | --- | --- | --- |
-| assets | [style.css](https://github.com/twitch10126/the-forge/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://twitch10126.github.io/the-forge) | ![screenshot](documentation/validation/css-validate.png) | Notes (if applicable) |
+| Directory | File                                                                                 | URL                                                                                                        | Screenshot                                               | Notes                 |
+| --------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------- |
+| assets    | [style.css](https://github.com/twitch10126/the-forge/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://twitch10126.github.io/the-forge) | ![screenshot](documentation/validation/css-validate.png) | Notes (if applicable) |
+
+## Responsiveness
+
+I've tested my deployed project to check for responsiveness issues.
+
+| Page         | Mobile                                                                                                                                                                                                                                                      | Tablet                                                                                                                                                                                                                                                      | Desktop                                                              | Notes             |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------- |
+| Home         | ![screenshot](documentation/responsiveness/mobile-index-1.png) ![screenshot](documentation/responsiveness/mobile-index-2.png) ![screenshot](documentation/responsiveness/mobile-index-3.png) ![screenshot](documentation/responsiveness/mobile-index-4.png) | ![screenshot](documentation/responsiveness/tablet-index-1.png) ![screenshot](documentation/responsiveness/tablet-index-2.png) ![screenshot](documentation/responsiveness/tablet-index-3.png) ![screenshot](documentation/responsiveness/tablet-index-4.png) | ![screenshot](documentation/responsiveness/desktop-index-1.png) ![screenshot](documentation/responsiveness/desktop-index-2.png) ![screenshot](documentation/responsiveness/desktop-index-3.png) ![screenshot](documentation/responsiveness/desktop-index-4.png)   | Works as expected |

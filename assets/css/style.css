@@ -90,6 +90,14 @@ footer {
   font-family: "teko", sans-serif;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  z-index: 1000;
+}
+
 /* Navbar */
 #navbar ul li {
   font-size: 27px;

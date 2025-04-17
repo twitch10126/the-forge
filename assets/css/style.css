@@ -83,7 +83,6 @@ li {
 
 /* Header */
 header,
-nav a,
 footer {
   background-color: var(--primary-color);
   color: var(--highlight) !important;
@@ -106,6 +105,11 @@ header {
 #navbarToggler ul {
   background-color: var(--primary-color);
  
+}
+ nav a{
+  color: var(--highlight) !important;
+  font-family: "teko", sans-serif;
+  height: 50px;
 }
 nav a:hover {
   color: var(--highlight-light) !important;

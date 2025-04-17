@@ -1,0 +1,20 @@
+# Testing
+
+> [!NOTE]
+> Return back to the [README.md](README.md) file.
+
+## Code Validation
+
+### HTML
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+
+| Directory | File                                                                            | URL                                                                                                     | Screenshot                                                | Notes                 |
+| --------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------------- |
+|           | [404.html](https://github.com/twitch10126/the-forge/blob/main/404.html)         | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/404.html)     | ![screenshot](documentation/validation/404-validate.png)     | Notes (if applicable) |
+|           | [booking.html](https://github.com/twitch10126/the-forge/blob/main/booking.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/booking.html) | ![screenshot](documentation/validation/booking-validate.png) | Notes (if applicable) |
+|           | [classes.html](https://github.com/twitch10126/the-forge/blob/main/classes.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/classes.html) | ![screenshot](documentation/validation/classes-validate.png) | Notes (if applicable) |
+|           | [gallery.html](https://github.com/twitch10126/the-forge/blob/main/gallery.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/gallery.html) | ![screenshot](documentation/validation/gallery-validate.png) | Notes (if applicable) |
+|           | [index.html](https://github.com/twitch10126/the-forge/blob/main/index.html)     | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/index.html)   | ![screenshot](documentation/validation/index-validate.png)   | Notes (if applicable) |
+|           | [signup.html](https://github.com/twitch10126/the-forge/blob/main/signup.html)   | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/signup.html)  | ![screenshot](documentation/validation/signup-validate.png)  | Notes (if applicable) |
+|           | [success.html](https://github.com/twitch10126/the-forge/blob/main/success.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://twitch10126.github.io/the-forge/success.html) | ![screenshot](documentation/validation/success-validate.png) | Notes (if applicable) |

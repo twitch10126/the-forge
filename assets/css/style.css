@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* imported Oswald and teko fonts from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap");
 
@@ -128,7 +135,9 @@ main {
 /* Why us section */
 
 #why-us {
-  justify-content: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 #why-us h2 {
@@ -199,7 +208,8 @@ main {
 /* Gallery */
 /* Mobile images */
 #gallery img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 300px;
   width: 100%;
 }
@@ -294,7 +304,8 @@ footer {
   /* Gallery */
   /* Mobile images */
   #gallery img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 700px;
     width: 100%;
   }

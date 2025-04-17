@@ -103,6 +103,10 @@ header {
   font-size: 27px;
 }
 
+#navbarToggler ul {
+  background-color: var(--primary-color);
+ 
+}
 nav a:hover {
   color: var(--highlight-light) !important;
 }

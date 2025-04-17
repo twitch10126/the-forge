@@ -119,6 +119,10 @@ nav a:hover {
 #brand {
   font-size: 40px !important;
   font-family: "teko", sans-serif;
+  background-color: transparent;
+  color: var(--highlight) !important;
+  margin: 0;
+  padding: 0
 }
 
 /* Main content*/

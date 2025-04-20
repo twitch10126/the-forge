@@ -133,7 +133,7 @@ main {
 /* Hero section */
 
 .hero-image {
-  background: url(../images/weightlifting.jpg) center center / cover;
+  background: url(../images/weightlifting.webp) center center / cover;
   padding-top: 25em !important;
 }
 
@@ -185,7 +185,7 @@ main {
 }
 
 #why-us-image {
-  background: url(../images/gym-friends.jpg) center center / cover;
+  background: url(../images/gym-friends.webp) center center / cover;
   min-height: 300px;
   margin-bottom: 1px;
 }

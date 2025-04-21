@@ -96,3 +96,24 @@ Defensive programming was manually tested with the below user acceptance testing
 | As a visitor              | I want to read reviews and testimonials sorted by most recent                                                  | so that I can gain insights into others' experiences before signing up.   | ![screenshot](documentation/features/testimonials.png)                                                                                                      |
 | As a potential member     | I would like to sign up for the gym                                                                            | so that I can join the community and participate in classes.              | ![screenshot](documentation/features/signup.png)                                                                                                            |
 | As a site user                 | I would like to see a 404 error page if I get lost                                                             | so that it's obvious that I've stumbled upon a page that doesn't exist.   | ![screenshot](documentation/defensive/404.png)                                                                                                              |
+
+## Bugs
+
+### Fixed Bugs
+
+[![GitHub issue custom search](https://img.shields.io/github/issues-search?query=repo%3Atwitch10126%2Fthe-forge%20label%3Abug&label=bugs)](https://www.github.com/twitch10126/the-forge/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
+
+I've used [GitHub Issues](https://www.github.com/twitch10126/the-forge/issues) to track and manage bugs and issues during the development stages of my project.
+
+All previously closed/fixed bugs can be tracked [here](https://www.github.com/twitch10126/the-forge/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
+
+![screenshot](documentation/bugs/closed-issues.png)
+
+### Unfixed Bugs
+
+[![GitHub issues](https://img.shields.io/github/issues/twitch10126/the-forge)](https://www.github.com/twitch10126/the-forge/issues)
+
+Any remaining open issues can be tracked [here](https://www.github.com/twitch10126/the-forge/issues).
+
+![screenshot](documentation/bugs/open-issues.png)
+

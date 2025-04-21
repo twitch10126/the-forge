@@ -117,3 +117,11 @@ Any remaining open issues can be tracked [here](https://www.github.com/twitch101
 
 ![screenshot](documentation/bugs/open-issues.png)
 
+### Known Issues
+
+| Issue | Screenshot |
+| --- | --- |
+| On devices smaller than 270px, the hero text box starts to overflow hero image covering the why us section. | ![screenshot](documentation/issues/hero-textbox.png) |
+
+> [!IMPORTANT]
+> There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.

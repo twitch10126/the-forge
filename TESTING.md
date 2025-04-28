@@ -25,7 +25,15 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File                                                                                 | URL                                                                                                        | Screenshot                                               | Notes                 |
 | --------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------- |
-| assets    | [style.css](https://github.com/twitch10126/the-forge/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://twitch10126.github.io/the-forge) | ![screenshot](documentation/validation/css-validate.png) | Notes (if applicable) |
+| assets    | [style.css](https://github.com/twitch10126/the-forge/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://twitch10126.github.io/the-forge) | ![screenshot](documentation/validation/css-validate.png) | No errors/warnings |
+
+### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| assets | [script.js](https://github.com/twitch10126/the-forge/blob/main/assets/js/script.js) | ![screenshot](documentation/validation/js-validate.png) | No errors/warnings |
 
 ## Responsiveness
 
